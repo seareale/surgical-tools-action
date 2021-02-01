@@ -20,7 +20,11 @@ ex)
 
 ## Inference
 ```bash
-$ python3 test.py ${LABEL_IDX} ${CHECKPOINT_PATH}
+$ python3 test.py ${LABEL_IDX} ${CHECKPOINT_PATH} --size ${INPUT_SIZE} --batch ${BATCH_SIZE}
 ```  
+ex)   
+```$ python3 res101_run.py 11 ./save/[CHECKPOINT].pth```  
+```$ python3 res101_run.py 11 ./save/[CHECKPOINT].pth --size 224 --batch 128```
+
 ---
 ## Result
