@@ -22,4 +22,5 @@ ex)
 ```bash
 $ python3 test.py ${LABEL_IDX} ${CHECKPOINT_PATH}
 ```  
+---
 ## Result
