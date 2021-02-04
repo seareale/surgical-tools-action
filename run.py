@@ -194,7 +194,7 @@ best_acc = 0
 best_model_wts = model.state_dict()
 
 date_str = "%02d"%time.localtime().tm_mon + "%02d"%time.localtime().tm_mday + "%02d"%time.localtime().tm_hour + '%02d' %(time.localtime().tm_min)
-file_name = './save/res101_' + date_str + '.pth'
+file_name = './save/res152_' + date_str + '.pth'
 
 since = time.time()
 
@@ -207,5 +207,5 @@ time_elapsed = time.time() - since
 print('Training complete in {:.0f}m {:.0f}s'.format(time_elapsed // 60, time_elapsed % 60))
 print('Best val Acc: {:4f}'.format(best_acc))
 
-file_name_acc = './save/res101_' + date_str + '_' + ('%.2f' % best_acc)[2:] + '.pth'
+file_name_acc = './save/res152_' + date_str + '_' + ('%.2f' % best_acc)[2:] + '.pth'
 os.rename(file_name, file_name_acc)
