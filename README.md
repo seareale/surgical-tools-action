@@ -1,9 +1,18 @@
 # surgical-tools-action
 ## Install
 ### Requirements
+Using ```Imbalanced Dataset Sampler``` from [ufoym/imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
 ```bash
-$ pip install -r requirements.txt  
+$ git clone https://github.com/ufoym/imbalanced-dataset-sampler.git
+$ cd imbalanced-dataset-sampler
+$ python setup.py install
+$ pip install .
+$ cd ..
+```
+```bash
 $ git clone https://github.com/SeaRealE/surgical-tools-action.git
+$ cd surgical-tools-action
+$ pip install -r requirements.txt  
 ``` 
 ### Preparing dataset
 - you can prepare datasets in [here](dataset/README.md)  
