@@ -34,7 +34,7 @@ input_size = args.size
 batch_size = args.batch
 
 
-os.environ["CUDA_VISIBLE_DEVICES"]=gpu_idx
+os.environ["CUDA_VISIBLE_DEVICES"]=str(gpu_idx)
 device = 'cuda:0'
 
 data_dir_base = './dataset'
@@ -175,7 +175,7 @@ def test(epoch, model, test_dataloader, criterion):
 
 ###########################################################################################
 
-model = models.resnet101(pretrained=True)
+model = models.resnet152(pretrained=True)
 model.fc = nn.Sequential(nn.Linear(2048, 2048),
                              nn.BatchNorm1d(num_features=2048),
                              nn.ReLU(),
