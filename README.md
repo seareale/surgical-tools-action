@@ -1,4 +1,4 @@
-# surgical-tools-action
+# surgical-tools-action-classification
 ## Install
 ### Requirements
 Using ```Imbalanced Dataset Sampler``` from [ufoym/imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
