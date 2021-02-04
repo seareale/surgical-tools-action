@@ -6,16 +6,15 @@ If your folder structure is different, you may need to change the corresponding 
 ```
 .
 ├── dataset
-│   ├── 11
-│   │   ├── train
-│   │   │   ├── close
-│   │   │   │   ├── image1.jpg
-│   │   │   │   ├── image2.jpg
-│   │   │   │   └── .....
-│   │   │   └── open
-│   │   └── val
-│   │       ├── close
-│   │       └── open
-│   ├── 12
-|   |   ├─ .....
-```  
+    ├── train
+    │   ├── close
+    │   │   ├── image1.jpg
+    │   │   ├── image2.jpg
+    │   │   └── .....
+    │   └── open
+    ├── val
+    │   ├── close
+    │   └── open
+    └── test
+        ├── close
+        └── open
