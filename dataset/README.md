@@ -5,7 +5,7 @@ If your folder structure is different, you may need to change the corresponding 
 
 ```
 .
-├── dataset
+└── dataset
     ├── train
     │   ├── close
     │   │   ├── image1.jpg
