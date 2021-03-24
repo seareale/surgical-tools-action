@@ -1,4 +1,11 @@
 # surgical-tools-action
+based on ResNet, add 2 FC layers in the end of model.  
+use **ImbalancedDatasetSampler** when the data is loading.  
+- input : 224X224  
+- l-rate : 0.01  
+- batch-size : 128
+- weight decay : 5e-4 
+
 ## Install
 ### Requirements
 Using ```Imbalanced Dataset Sampler``` from [ufoym/imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
