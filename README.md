@@ -35,3 +35,16 @@ ex)
 train | 57,295 | 14,640
 val | 6,838 | 1,926
 test | 7,112 | 2,226
+
+#### Accuracy for surgical tool action recognition
+Model | # of params | Acc |
+---- | ---- | ----
+ResNet18 | 11M |0.8287
+ResNet34 | 21M | 0.8360
+ResNet50 | 25M | 0.8658
+ResNet101 | 44M | 0.8588
+ResNet152 | 60M | 0.8609
+**ResNeXt50_32x4d** | **25M** | **0.8696**
+ResNeXt101_32x8d | 88M | 0.8555
+Wide_ResNet50_2 | 68M | 0.8503
+Wide_ResNet101_2 | 126M | 0.8549
