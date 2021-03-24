@@ -1,4 +1,4 @@
-# surgical-tools-action-detection
+# surgical-tools-action
 ## Install
 ### Requirements
 Using ```Imbalanced Dataset Sampler``` from [ufoym/imbalanced-dataset-sampler](https://github.com/ufoym/imbalanced-dataset-sampler)
@@ -29,3 +29,9 @@ ex)
 
 ---
 ## Result
+#### Distribution of surgical tool image
+&nbsp; | close | open |
+---- | ---- | ----
+train | 57,295 | 14,640
+val | 6,838 | 1,926
+test | 7,112 | 2,226
